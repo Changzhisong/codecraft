@@ -25,9 +25,9 @@ SDK-java.zip<br>
 │		└── startup.sh								   　　		Linux环境一键式执行脚本(本地测试脚本)<br>
 ├─code/														源代码路径<br>
 │	└── cdn/<br>
-│		├── bin/										    编译后创建的class文件<br>
-│		└── src/										    java源代码路径<br>
-│				└─com/<br>
+│	├── bin/										    编译后创建的class文件<br>
+│	└── src/										    java源代码路径<br>
+│	└─com/<br>
 │					├─filetool/<br>
 │					│	├─main/<br>
 │					│	│		Main.java					main函数源文件，不可修改<br>
@@ -37,10 +37,10 @@ SDK-java.zip<br>
 │					└─cacheserverdeploy/<br>
 │						└─deploy/<br>
 │								Deploy.java					你要写代码的源文件，需要修改<br>
-├── build.sh												Linux环境编译脚本，生成cdn.jar，不可修改<br>
-├── makelist.txt　										  　  需要编译的java文件，供脚本调用<br>
-├── cdn_tar.sh								                打包脚本，生成cdn.tar.gz(可以不使用，直接在windows上修改源代码和makelist.txt压缩成zip格式文件)<br>
-└── readme.txt											    你正在看的文件 -_-" 这不用介绍了吧<br>
+├── build.shLinux	环境编译脚本，生成cdn.jar，不可修改<br>
+├── makelist.txt	需要编译的java文件，供脚本调用<br>
+├── cdn_tar.sh	打包脚本，生成cdn.tar.gz(可以不使用，直接在windows上修改源代码和makelist.txt压缩成zip格式文件)<br>
+└── readme.txt												    你正在看的文件 -_-" 这不用介绍了吧<br>
 	注意：<br>
 	* 1)如果增加了源文件需要修改makelist.txt文件；<br>
 	* 2)如果运行时提示startup.sh文件第13行错误，请按照你本地系统情况修改此行，此脚本只是用来方便调用，修改后不会影响在判题平台的判题。<br>
